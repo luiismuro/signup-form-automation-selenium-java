@@ -4,7 +4,7 @@ This project executes the automation task of a user signup flow on the website
 by using Java, Selenium WebDriver and the design pattern Page Object Model (POM).
 
 
-## 🔧 Tecnologias Utilizadas
+## 🔧 Tecnologies on this project
 - Java 17+
 - Maven
 - Selenium WebDriver
