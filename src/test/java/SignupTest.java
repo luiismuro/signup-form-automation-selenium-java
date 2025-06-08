@@ -39,7 +39,6 @@ public class SignupTest {
         signupPage.fillMobileNumber("1234234");
         signupPage.clickCreateAccountButton();
 
-
     }
 }
 
