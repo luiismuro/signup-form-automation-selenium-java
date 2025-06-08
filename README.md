@@ -22,7 +22,7 @@ by using Java, Selenium WebDriver and the design pattern Page Object Model (POM)
 - Stable internet connection
 
 ## How to execute
-- Clone this project locally
+- Clone this project locally  
   git clone https://github.com/seu-usuario/signup-form-automation-selenium-java.git
   cd signup-form-automation-selenium-java
 - Execute SignupTest file
