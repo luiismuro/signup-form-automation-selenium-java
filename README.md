@@ -1,7 +1,11 @@
 # 🤖 SignupFormAutomation - Selenium + Java
-This project executes the automation task of a user signup flow on the website
+This project executes the automation task of a user signup/login flow on the website  
 [Automation Exercise](https://automationexercise.com), 
 by using Java, Selenium WebDriver and the design pattern Page Object Model (POM).
+
+
+![Run](https://github.com/user-attachments/assets/bdac3eda-2471-4a8f-9254-356d6dc61f12)
+
 
 ## 🔧 Tecnologies used on this project
 - Java 17+
