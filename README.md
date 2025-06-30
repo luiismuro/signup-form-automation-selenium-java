@@ -3,8 +3,11 @@ This project executes the automation task of a user signup/login flow on the web
 [Automation Exercise](https://automationexercise.com), 
 by using Java, Selenium WebDriver and the design pattern Page Object Model (POM).
 
-
+### Signup:
 ![Run](https://github.com/user-attachments/assets/bdac3eda-2471-4a8f-9254-356d6dc61f12)
+
+### Login:
+![ezgif-1fad1a8c63faf1](https://github.com/user-attachments/assets/1e782745-5f43-453f-ba26-fc6b1d513a6c)
 
 
 ## 🔧 Tecnologies used on this project
