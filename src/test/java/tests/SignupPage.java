@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -19,7 +21,7 @@ public class SignupPage {
     private final By nameField = By.name("name");
     private final By emailField = By.xpath("/html/body/section/div/div/div[3]/div/form/input[3]");
     private final By signupButton = By.xpath("/html/body/section/div/div/div[3]/div/form/button");
-    private final By titleRadio = By.id("id_gender1");
+    private final By genderRadio = By.id("id_gender1"); // choose male
     private final By passwordField = By.id("password");
     private final By birthdaySelect = By.id("days");
     private final By birthMonthSelect = By.id("months");
@@ -52,9 +54,10 @@ public class SignupPage {
         driver.findElement(signupButton).click();
     }
 
-    // methods of register form
-    public void clickTitleRadio(){
-        driver.findElement(titleRadio).click();
+
+    // Methods of action on the form
+    public void clickGenderRadio(){
+        driver.findElement(genderRadio).click();
     }
 
     public void fillPasswordField(String password){
@@ -119,6 +122,24 @@ public class SignupPage {
         driver.findElement(createAccountButton).click();
     }
 
+    // Method of register form
+    public void fillCompleteForm (String Password) {
+        clickGenderRadio();
+        fillPasswordField(Password);
+        selectDay();
+        selectMonth();
+        selectYear();
+        fillFirstName("Test");
+        fillLastName("Last");
+        fillCompany("Test Company 123 LTDA");
+        fillAddress("Test Street .123 avenue");
+        selectCountry();
+        fillState("Test State 123 Capital");
+        fillCity("Test City 123");
+        fillZipCode("12345");
+        fillMobileNumber("123456789");
+        clickCreateAccountButton();
+    }
 
 }
 

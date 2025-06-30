@@ -16,7 +16,7 @@ by using Java, Selenium WebDriver and the design pattern Page Object Model (POM)
 - Page Object Model - POM
 
 ## 🔐 Credential Protection configuration
-- Create or edit file credential.properties on the root folder of the project with the following variables:
+- Create a file named credential.properties on the root folder of the project with the following variables:
   signup.password=newpassword123
 
 ## Requirements
@@ -31,8 +31,8 @@ by using Java, Selenium WebDriver and the design pattern Page Object Model (POM)
   cd signup-form-automation-selenium-java
 - Execute SignupTest file
   mvn test -Dtest=SignupTest
-- Execute LoginTest file
-  mvn test -Dtest=LoginTest
+- Execute tests.LoginTest file
+  mvn test -Dtest=tests.LoginTest
 
 ## Remarks
 - If you have IntelliJ IDEA IDE you can run directly on the environment by clicking on "Run"
