@@ -14,7 +14,7 @@ by using Java, Selenium WebDriver and the design pattern Page Object Model (POM)
 - Java 17+
 - Maven
 - Selenium WebDriver
-- JUnit 5
+- Testng
 - IntelliJ IDEA
 - Page Object Model - POM
 
